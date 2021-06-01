@@ -2,7 +2,7 @@
 
 1.phpコンテナに入る
 ```
-docker exec -it docker_test_php bash
+docker exec -it laravel_vue_php bash
 ```
 
 2.laravelをインストール
@@ -13,6 +13,11 @@ composer global require laravel/installer
 3.laravelのプロジェクト作成
 ```
 composer create-project --prefer-dist laravel/laravel laravel_vue
+```
+
+4.composerを入れる
+```
+composer install
 ```
 
 .envを書き換える
