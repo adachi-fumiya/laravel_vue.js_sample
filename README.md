@@ -12,7 +12,7 @@ composer global require laravel/installer
 
 3.laravelのプロジェクト作成
 ```
-composer create-project --prefer-dist laravel/laravel test_docker
+composer create-project --prefer-dist laravel/laravel laravel_vue
 ```
 
 .envを書き換える
