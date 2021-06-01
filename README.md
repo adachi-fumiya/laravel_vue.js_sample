@@ -25,7 +25,7 @@ composer install
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=docker_test
+DB_DATABASE=laravel_vue
 DB_USERNAME=docker
 DB_PASSWORD=docker
 ```
