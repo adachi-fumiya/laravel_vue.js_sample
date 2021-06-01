@@ -20,6 +20,18 @@ composer create-project --prefer-dist laravel/laravel laravel_vue
 composer install
 ```
 
+5.loginを追加
+```
+composer require laravel/ui
+```
+
+6.
+```
+php artisan ui vue --auth
+npm install
+npm run dev
+```
+
 .envを書き換える
 ```
 DB_CONNECTION=mysql
