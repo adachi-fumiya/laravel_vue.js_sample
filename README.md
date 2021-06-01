@@ -15,6 +15,11 @@ composer global require laravel/installer
 composer create-project --prefer-dist laravel/laravel laravel_vue
 ```
 
+4.composerを入れる
+```
+composer install
+```
+
 .envを書き換える
 ```
 DB_CONNECTION=mysql
