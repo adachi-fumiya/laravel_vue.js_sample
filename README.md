@@ -2,7 +2,7 @@
 
 1.phpコンテナに入る
 ```
-docker exec -it docker_test_php bash
+docker exec -it laravel_vue_php bash
 ```
 
 2.laravelをインストール
